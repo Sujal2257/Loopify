@@ -134,6 +134,7 @@ a {
 
 .right-border {
     flex: 1;
+    position: relative;
 }
 
 .header {
@@ -190,4 +191,68 @@ a {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+}
+
+.buttons>* {
+    margin: 0 12px;
+}
+
+.signupbtn {
+    background-color: #121212;
+    color: rgb(179, 176, 176);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: font-size 0.2s ease-in-out;
+    margin-right: -4px;
+    border-radius: 15px;
+    padding: 6px 8px;
+
+
+}
+
+.signupbtn:hover {
+    font-size: 15px;
+    color: white;
+}
+
+.loginbtn {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 21px;
+    width: 79px;
+    padding: 6px 8px;
+    transition: font-size 0.2s ease-in-out;
+
+}
+
+.loginbtn:hover {
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 8px 10px;
+}
+
+
+.playbar {
+    display: flex;
+    justify-content: center; 
+    
+    position: fixed;
+    bottom: 0;
+    background-color: #121212;
+    border-radius: 15px;
+    height: 2.5rem;
+    align-items: center;
+    width: 71.9%;
+    margin: 6px -6px;
+}
+.songbtns {
+    gap: 35px;
 }
